@@ -11,11 +11,16 @@ Nous avons également réutilisé l'interpréteur vu en cours et en travaux prat
 
 Lorsque toutes les étoiles de la carte on été capturées le jeu vous indique que vous avez gagné la partie.
 
-Le jeu se compile dans le terminal de la façon suivante :
+Le jeu se compile dans le terminal de la façon suivante : 
+ocamlmktop directions.ml  interprete.ml graphics.cma images50.ml dessiner.ml StarHunt.ml -o StarHunt
+
 
 Puis s'exécute grace à la commande : ./StarHunt
 
 Afin de jouer vous devez alors taper les commandes suivantes :
+
+open StarHunt;;
+open Interprete;;
 
 À présent vous pouvez toutes les combinaisons possibles afin de terminer le jeu.
 
