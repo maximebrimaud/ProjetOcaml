@@ -1,0 +1,23 @@
+Ce dépôt contient le devoir du cours d'Ocaml par Jessica Curpen et Maxime Brimaud.
+Ce programme que nous avons nommé Star Hunt,
+consiste en un jeu de plateau où l'objectif est de capturer toutes les étoiles présentes sur la carte.
+
+Pour cela vous devez déplacer votre personnage grace à des blocs de commande.
+Par exemple : jouer (Bloc[Nord;Sud;Est;Ouest]);;
+
+Pour faire ce projet nous nous sommes appuyé sur les codes vus en cours.
+Nous y avons ajouté des interactions avec différents objets comme des obstacles ou des téléporteurs.
+Nous avons également réutilisé l'interpréteur vu en cours et en travaux pratiques.
+
+Lorsque toutes les étoiles de la carte on été capturées le jeu vous indique que vous avez gagné la partie.
+
+Le jeu se compile dans le terminal de la façon suivante :
+
+Puis s'exécute grace à la commande : ./StarHunt
+
+Afin de jouer vous devez alors taper les commandes suivantes :
+
+À présent vous pouvez toutes les combinaisons possibles afin de terminer le jeu.
+
+Jessica Curpen
+Maxime Brimaud
