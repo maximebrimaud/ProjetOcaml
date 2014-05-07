@@ -49,10 +49,10 @@ let afficher_rock () =
   List.iter (afficher Images.rock) rock;
   afficher_perso ();;
 let afficher_tele1 () =
-  List.iter (afficher Images.pastillerose) teleporteur1;
+  List.iter (afficher Images.vortex) teleporteur1;
   afficher_perso ();;
 let afficher_tele2 () =
-  List.iter (afficher Images.pastillerose) teleporteur2;
+  List.iter (afficher Images.vortex) teleporteur2;
   afficher_perso ();;
 
 
